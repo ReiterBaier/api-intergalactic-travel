@@ -1,0 +1,16 @@
+{
+  "name": "api-intergalactic-travel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ReiterBaier/api-intergalactic-travel.git",
+  "author": "Reiter Baier <91735552+ReiterBaier@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:clean": "rimraf ./dist",
+    "build:dist": "tsc --build tsconfig.build.json"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "routing-controllers": "^0.9.0"
+  }
+}
