@@ -1,2 +1,3 @@
-const teste = 123
-console.log(teste)
+import { routePlanets } from '../src/routes/planets/controller'
+
+console.log(routePlanets)
