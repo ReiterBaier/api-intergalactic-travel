@@ -1,18 +1,17 @@
 {
   "name": "api-intergalactic-travel",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
   "repository": "https://github.com/ReiterBaier/api-intergalactic-travel.git",
   "author": "Reiter Baier <91735552+ReiterBaier@users.noreply.github.com>",
   "license": "MIT",
-  "scripts": {
-    "dev": "set ./src/index.ts",
-    "build:clean": "rimraf ./dist",
-    "build:dist": "tsc --build tsconfig.build.json"
-  },
   "dependencies": {
-    "express": "^4.18.1",
-    "routing-controllers": "^0.9.0",
-    "typescript": "^4.6.4"
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
   }
 }
