@@ -1,13 +1,20 @@
 import * as express from 'express'
 import { ServerResponse } from 'http'
 import { getPeople } from './routes/people'
+import { getPlanets } from './routes/planets'
+import { getStarships } from './routes/starships'
+import { getVehicles } from './routes/vehicles'
+import { getSpecies } from './routes/species'
 
 
 export const server = express()
 
 server.use(express.json())
 getPeople(server)
-
+getPlanets(server)
+getStarships(server)
+getVehicles(server)
+getSpecies(server)
 
 /* outras rotas, já prontas
 
