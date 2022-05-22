@@ -1,3 +1,6 @@
-import { routePlanets } from '../src/routes/planets/controller'
+import { server } from './server'
 
-console.log(routePlanets)
+server.listen(10550, () => console.log('Server is running on port 10550'))
+
+
+
