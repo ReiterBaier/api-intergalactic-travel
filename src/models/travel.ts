@@ -1,6 +1,6 @@
-import mongoose from 'mongoose'
+import * as mongoose from 'mongoose'
 
-export const travelSchema = new mongoose.Schema({
+ export const travelSchema =  function () {new mongoose.Schema({
     starship: {
         type: String,
         require: true
@@ -24,5 +24,7 @@ export const travelSchema = new mongoose.Schema({
     date: {
         type: Date,
         defaullt: Date.now()
-    }
-})
+    },
+})}
+
+
