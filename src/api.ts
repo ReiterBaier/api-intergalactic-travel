@@ -1,8 +1,7 @@
-import axios from 'axios';
+import * as axios from 'axios'
 
-export const swapUrl =  async () => {axios.create ({
-baseURL: 'https://swapi.dev/api/'
+
+export const swapUrl = axios.create ({
+  baseURL: `https://swapi.dev/api/`
   })
-}
-
 
