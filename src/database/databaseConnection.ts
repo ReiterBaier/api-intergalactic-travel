@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-export const connectDb = () => {
+export const connectDb =  async () => {
     mongoose.connect('mongodb+srv://SYSDBA:masterkey@travels.j3i1q.mongodb.net/?retryWrites=true&w=majority',
     {
         useNewUrlParser: true,

@@ -5,7 +5,8 @@ import { getPlanets } from './routes/planets/controller'
 import { getStarships } from './routes/starships/controller'
 import { getVehicles } from './routes/vehicles/controller'
 import { getSpecies } from './routes/species/controller'
-import { postTravel } from './routes/travel/controller'
+import { createTravel } from './routes/travel/controller'
+
 
 
 export const server = express()
@@ -16,7 +17,7 @@ getPlanets(server)
 getStarships(server)
 getVehicles(server)
 getSpecies(server)
-postTravel(server)
+createTravel(server)
 
 
 
