@@ -12,6 +12,21 @@ import { createTravel } from './routes/travel/controller'
 export const server = express()
 
 server.use(express.json())
+/**
+ * export const getPeople = function () { server.get('/people/:id' , async (req, res) => {
+    const { id } = req.params;
+    try {
+        const { data } = await swapUrl.get(`people/${id}`)
+  
+        return res.send(data)
+        console.log(data)
+    } catch(error) {
+      res.send({swapApiError: [error.data, error.message]})
+    }
+  })
+}
+ */
+
 getPeople(server)
 getPlanets(server)
 getStarships(server)
