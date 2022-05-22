@@ -1,10 +1,10 @@
 import * as express from 'express'
 import { ServerResponse } from 'http'
-import { getPeople } from './routes/people'
-import { getPlanets } from './routes/planets'
-import { getStarships } from './routes/starships'
-import { getVehicles } from './routes/vehicles'
-import { getSpecies } from './routes/species'
+import { getPeople } from './routes/people/controller'
+import { getPlanets } from './routes/planets/controller'
+import { getStarships } from './routes/starships/controller'
+import { getVehicles } from './routes/vehicles/controller'
+import { getSpecies } from './routes/species/controller'
 
 
 export const server = express()

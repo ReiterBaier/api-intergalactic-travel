@@ -1,5 +1,5 @@
-import { server } from '../server'
-import { swapUrl } from '../swapi' 
+import { server } from '../../server'
+import { swapUrl } from '../../swapi' 
 
 export const getPlanets = function () { server.get('/planets/:id' , async (req, res) => {
     const { id } = req.params;

@@ -1,5 +1,5 @@
-import { server } from '../server'
-import { swapUrl } from '../swapi' 
+import { server } from '../../server'
+import { swapUrl } from '../../swapi' 
 
 export const getVehicles = function () { server.get('/vehicles/:id' , async (req, res) => {
     const { id } = req.params;
