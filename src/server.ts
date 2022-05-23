@@ -21,8 +21,8 @@ server.get('/planets/:id', getPlanets)
 server.get('/starships/:id', getStarships)
 server.get('/vehicles/:id', getVehicles)
 server.get('/species/:id', getSpecies)
-server.get('/travel', getTravel)
-server.post('/travel', createTravel)
+server.get('/travels', getTravel)
+server.post('/travels', createTravel)
 
 export default server
 
