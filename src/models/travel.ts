@@ -1,6 +1,5 @@
 import * as mongoose from 'mongoose'
 
-
 const travelSchema = new mongoose.Schema({
             starship: {
                 type: String,
