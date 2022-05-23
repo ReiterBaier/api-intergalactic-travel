@@ -49,7 +49,9 @@
     "destionationPlanet": "string"
 }
 
-Todos os campos do exemplo acima são obrigatórios, portanto caso algum não seja enviado, a API vai criticar e não gravará os dados.
+Todos os campos do exemplo acima são obrigatórios, portanto caso algum não seja enviado, a API vai criticar e não gravará os dados. Para facilitar os testes na aplicação, segue um collection do postman com todas as rotas [Intergalactic API.postman_collection.zip](https://github.com/ReiterBaier/api-intergalactic-travels/files/8750914/Intergalactic.API.postman_collection.zip)
+
+
 
 ### Por séculos, em toda Intergalactic travel a espécia Droid foi responsável por garantir a segurança de todas as viagens. Porém, atualmente os Droids não fazem mais isso pois estão se dedicando a algo muito mais promissor, a venda de cafés na STARbucks.
 
