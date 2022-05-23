@@ -9,6 +9,8 @@ import { createTravel } from './routes/travel/controller'
 
 
 const server = express()
+
+/* Middleware que intercepta a requisição e a transmiti como um json */
 server.use(express.json())
 
 server.get('/people/:id', getPeople)

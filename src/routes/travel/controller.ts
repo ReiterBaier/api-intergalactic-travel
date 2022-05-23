@@ -3,6 +3,7 @@ import { travelModel } from '../../models/travel'
 export const createTravel = async (req, res) => {
   try {
     const travel = new travelModel(req.body)
+    //validatePilotAndCopilotSpecies()
     await travel.save()
     return res.status(201).json(travel)
   } catch(error) {
@@ -10,3 +11,10 @@ export const createTravel = async (req, res) => {
   }
 }
 
+
+/*const validatePilotAndCopilotSpecies = ({pilot, copilot}: {pilot:string, copilot:string}) => {
+  const species = '' // funcao que retorna a especie
+  if (false) { //falha
+    throw new Error('Deve ser um droid')
+  }
+}*/
