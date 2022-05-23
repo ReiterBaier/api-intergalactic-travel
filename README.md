@@ -19,9 +19,9 @@
 
 ### 3 - Feito isso você pode rodar a aplicação de três formas:
 
-3.1 - Utilizar o comando **"buiid"**, fazendo com que a pasta "dist" seja criada, convertendo os arquivos do TypeScript para Javascript. Após isso, execute o comando "node ./dist/src/install.js" e pronto, a aplicação estará rodando como um serviço do Windows.
+3.1 - Utilizar o comando **"yarn buiid"**, fazendo com que a pasta "dist" seja criada, convertendo os arquivos do TypeScript para Javascript. Após isso, execute o comando "node ./dist/src/install.js" e pronto, a aplicação estará rodando como um serviço do Windows.
 
-3.2 - Após executar o comando **"build"**, executar o comando "node ./dist/src/index.js", para rodar a aplicação através do seu terminal.
+3.2 - Após executar o comando **"yarn build"**, executar o comando "node ./dist/src/index.js", para rodar a aplicação através do seu terminal.
 
 3.3 - Utilizar o comando **"yarn dev"** para rodar a aplicação em desenvolvimento
 
