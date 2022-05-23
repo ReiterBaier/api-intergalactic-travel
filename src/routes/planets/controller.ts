@@ -1,7 +1,6 @@
-import { server } from '../../server'
 import { swapUrl } from '../../swapi' 
 
-export const getPlanets = function () { server.get('/planets/:id' , async (req, res) => {
+export const getPlanets = async (req, res) => {
     const { id } = req.params;
     try {
         const { data } = await swapUrl.get(`planets/${id}`)
@@ -11,5 +10,6 @@ export const getPlanets = function () { server.get('/planets/:id' , async (req, 
     } catch(error) {
       res.send({swapApiError: [error.data, error.message]})
     }
-  })
-}
+  }
+
+  

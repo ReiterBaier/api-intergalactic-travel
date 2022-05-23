@@ -1,4 +1,4 @@
-import { server } from './server'
+import server from './server'
 import { connectDb } from './database/databaseConnection'
 
 connectDb()
