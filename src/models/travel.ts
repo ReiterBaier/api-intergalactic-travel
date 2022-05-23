@@ -1,5 +1,6 @@
 import * as mongoose from 'mongoose'
 
+/* Cria o schema de campos esperados no body de viagens */
 const travelSchema = new mongoose.Schema({
             starship: {
                 type: String,
@@ -27,4 +28,5 @@ const travelSchema = new mongoose.Schema({
             }
         })
 
+/* Exporta o schema de campos do body como um modelo */
 export const travelModel = mongoose.model('Travel', travelSchema)
